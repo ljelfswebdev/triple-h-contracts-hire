@@ -33,7 +33,12 @@ export default function AnimateRoot() {
       const observer = new IntersectionObserver(
         ([entry], obs) => {
           if (entry.isIntersecting) {
-            animate(el, final, { duration: 0.6, easing: 'ease-out' });
+            const delay = parseFloat(el.dataset.delay || '0');
+            animate(el, final, {
+              duration: 1,
+              delay,
+              easing: 'ease-out',
+            });
             obs.unobserve(entry.target);
           }
         },
