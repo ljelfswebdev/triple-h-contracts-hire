@@ -26,9 +26,9 @@ const HeroBanner = () => {
         <Image
           src={`/hero-banner/${img}`}
           alt={`Slide ${index + 1}`}
-          layout="fill"
-          objectFit="cover"
-          className="zoom"
+          height={600}
+          width={1920}
+          className="zoom h-full w-full"
           priority={index === 0}
         />
       </SwiperSlide>
