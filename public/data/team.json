@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Samantha Grey",
+      "job_title": "Managing Director",
+      "image": "placeholder.jpg"
+    },
+    {
+      "name": "James Whitmore",
+      "job_title": "Operations Manager",
+      "image": "placeholder.jpg"
+    },
+    {
+      "name": "Emily Hart",
+      "job_title": "Project Coordinator",
+      "image": "placeholder.jpg"
+    },
+    {
+      "name": "Liam Brooks",
+      "job_title": "Senior Site Supervisor",
+      "image": "placeholder.jpg"
+    },
+    {
+      "name": "Chloe Ramirez",
+      "job_title": "Health & Safety Officer",
+      "image": "placeholder.jpg"
+    },
+    {
+      "name": "Daniel Singh",
+      "job_title": "Logistics & Procurement",
+      "image": "placeholder.jpg"
+    },
+    {
+      "name": "Holly Bennett",
+      "job_title": "Marketing & Communications",
+      "image": "placeholder.jpg"
+    },
+    {
+      "name": "Marcus Doyle",
+      "job_title": "Fleet Manager",
+      "image": "placeholder.jpg"
+    },
+    {
+      "name": "Aisha Khan",
+      "job_title": "HR & Recruitment Lead",
+      "image": "placeholder.jpg"
+    },
+    {
+      "name": "Ryan Evans",
+      "job_title": "Field Technician",
+      "image": "placeholder.jpg"
+    }
+  ]

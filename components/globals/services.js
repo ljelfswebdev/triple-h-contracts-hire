@@ -44,17 +44,17 @@ const Services = () => {
             <SwiperSlide key={index}>
               <div
                 className="flex flex-col gap-3 group fade-in"
-                data-delay={(index * 0.3).toFixed(1)} // Increment delay by 0.3s
+                data-delay={(index * 0.2).toFixed(1)} // Increment delay by 0.3s
               >
                 <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
                   <Image
-                    src={`/${service.image}`}
+                    src={`/services/${service.image}`}
                     alt={service.title}
                     fill
                     className="object-cover transition-all group-hover:scale-110"
                   />
                 </div>
-                <h3 className="text-white h4 font-semibold">{service.title}</h3>
+                <div className="text-white h4 font-semibold">{service.title}</div>
                 <p className="text-white">{service.description}</p>
               </div>
             </SwiperSlide>

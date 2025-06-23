@@ -9,6 +9,7 @@ const Footer = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
+    { name: 'Gallery', href: '/gallery' },
     { name: 'Contact', href: '/contact' }
   ];
 
@@ -39,7 +40,9 @@ const Footer = () => {
             Stafford,<br />
             ST18 9DQ
           </p>
-          <a href="tel:01785532321" title="Call Us" className="mt-2">01785 532321</a>
+          <a href="tel:01785532321" title="Call Us" className="mt-2">01785 532321</a> <br />
+          <a href="mail:Ade.hall@triplehcontracts-hire.com" title="Email Us" className="mt-2">Email Us</a>
+          
         </div>
       </div>
     </footer>

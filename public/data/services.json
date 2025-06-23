@@ -1,27 +1,32 @@
 [
-    {
-      "title": "Building Works",
-      "description": "From foundations to finish, we handle projects of all scales with precision and care.",
-      "image": "image-coming-soon.jpg"
-    },
-    {
-      "title": "Landscaping & Ground Maintenance",
-      "description": "Transforming green spaces and maintaining them to the highest standard.",
-      "image": "image-coming-soon.jpg"
-    },
-    {
-      "title": "Groundworks",
-      "description": "Providing essential groundwork services that lay the path for lasting infrastructure.",
-      "image": "image-coming-soon.jpg"
-    },
-    {
-      "title": "Agricultural Contracting",
-      "description": "Supporting the rural economy with robust, dependable agricultural solutions.",
-      "image": "image-coming-soon.jpg"
-    },
-    {
-      "title": "Plant & Equipment Hire",
-      "description": "Well-maintained machinery ready when you need it, for projects large or small.",
-      "image": "image-coming-soon.jpg"
-    }
-  ]
+  {
+    "title": "Building Works",
+    "description": "From foundations to finish, we handle projects of all scales with precision and care.",
+    "image": "building-works.jpeg",
+    "main_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada, sapien a interdum luctus, urna nunc vestibulum lacus, non cursus purus ligula ac est. Integer nec sapien diam. Duis condimentum efficitur diam, a aliquam nunc porta at. Morbi sed lectus non nisl accumsan iaculis. Sed bibendum, arcu et tincidunt fermentum, ex nisl fermentum ante, id ullamcorper est quam vel lectus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In non nibh ut nisl tristique volutpat. Suspendisse potenti. Integer sit amet nulla vehicula, pulvinar ante ac, luctus ligula. Nullam ac sapien ac lacus lacinia imperdiet. Sed nec malesuada odio, non varius justo. Nullam faucibus leo a magna pulvinar pretium. Ut suscipit turpis et felis dictum, vel tempor sem tincidunt.</p><p>Fusce in ante ac libero lacinia sodales. Duis vitae velit a augue hendrerit sollicitudin. Etiam suscipit orci sem, a tincidunt lorem tincidunt id. Morbi tristique libero at ante scelerisque, vitae efficitur lacus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet orci turpis. Etiam posuere diam quis velit vulputate, nec commodo purus porta.</p><p>Mauris vulputate, odio nec euismod malesuada, augue ante porta risus, sed rutrum lorem erat vel massa. Integer lacinia mi et risus cursus convallis. Vivamus tristique dignissim velit, sed varius nisi mattis nec. Aenean vel sem a est ultrices varius. Cras scelerisque a sapien sed bibendum. Donec non orci non quam dignissim ullamcorper ut vitae nulla.</p>"
+  },
+  {
+    "title": "Landscaping & Ground Maintenance",
+    "description": "Transforming green spaces and maintaining them to the highest standard.",
+    "image": "image-coming-soon.jpg",
+    "main_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada, sapien a interdum luctus, urna nunc vestibulum lacus, non cursus purus ligula ac est. Integer nec sapien diam. Duis condimentum efficitur diam, a aliquam nunc porta at. Morbi sed lectus non nisl accumsan iaculis. Sed bibendum, arcu et tincidunt fermentum, ex nisl fermentum ante, id ullamcorper est quam vel lectus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In non nibh ut nisl tristique volutpat. Suspendisse potenti. Integer sit amet nulla vehicula, pulvinar ante ac, luctus ligula. Nullam ac sapien ac lacus lacinia imperdiet. Sed nec malesuada odio, non varius justo. Nullam faucibus leo a magna pulvinar pretium. Ut suscipit turpis et felis dictum, vel tempor sem tincidunt.</p><p>Fusce in ante ac libero lacinia sodales. Duis vitae velit a augue hendrerit sollicitudin. Etiam suscipit orci sem, a tincidunt lorem tincidunt id. Morbi tristique libero at ante scelerisque, vitae efficitur lacus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet orci turpis. Etiam posuere diam quis velit vulputate, nec commodo purus porta.</p>"
+  },
+  {
+    "title": "Groundworks",
+    "description": "Providing essential groundwork services that lay the path for lasting infrastructure.",
+    "image": "image-coming-soon.jpg",
+    "main_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada, sapien a interdum luctus, urna nunc vestibulum lacus, non cursus purus ligula ac est. Integer nec sapien diam. Duis condimentum efficitur diam, a aliquam nunc porta at. Morbi sed lectus non nisl accumsan iaculis. Sed bibendum, arcu et tincidunt fermentum, ex nisl fermentum ante, id ullamcorper est quam vel lectus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In non nibh ut nisl tristique volutpat. Suspendisse potenti. Integer sit amet nulla vehicula, pulvinar ante ac, luctus ligula. Nullam ac sapien ac lacus lacinia imperdiet. Sed nec malesuada odio, non varius justo. Nullam faucibus leo a magna pulvinar pretium. Ut suscipit turpis et felis dictum, vel tempor sem tincidunt.</p><p>Fusce in ante ac libero lacinia sodales. Duis vitae velit a augue hendrerit sollicitudin. Etiam suscipit orci sem, a tincidunt lorem tincidunt id. Morbi tristique libero at ante scelerisque, vitae efficitur lacus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet orci turpis. Etiam posuere diam quis velit vulputate, nec commodo purus porta.</p>"
+  },
+  {
+    "title": "Agricultural Contracting",
+    "description": "Supporting the rural economy with robust, dependable agricultural solutions.",
+    "image": "image-coming-soon.jpg",
+    "main_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada, sapien a interdum luctus, urna nunc vestibulum lacus, non cursus purus ligula ac est. Integer nec sapien diam. Duis condimentum efficitur diam, a aliquam nunc porta at. Morbi sed lectus non nisl accumsan iaculis. Sed bibendum, arcu et tincidunt fermentum, ex nisl fermentum ante, id ullamcorper est quam vel lectus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In non nibh ut nisl tristique volutpat. Suspendisse potenti. Integer sit amet nulla vehicula, pulvinar ante ac, luctus ligula. Nullam ac sapien ac lacus lacinia imperdiet. Sed nec malesuada odio, non varius justo. Nullam faucibus leo a magna pulvinar pretium. Ut suscipit turpis et felis dictum, vel tempor sem tincidunt.</p><p>Fusce in ante ac libero lacinia sodales. Duis vitae velit a augue hendrerit sollicitudin. Etiam suscipit orci sem, a tincidunt lorem tincidunt id. Morbi tristique libero at ante scelerisque, vitae efficitur lacus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet orci turpis. Etiam posuere diam quis velit vulputate, nec commodo purus porta.</p>"
+  },
+  {
+    "title": "Plant & Equipment Hire",
+    "description": "Well-maintained machinery ready when you need it, for projects large or small.",
+    "image": "image-coming-soon.jpg",
+    "main_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada, sapien a interdum luctus, urna nunc vestibulum lacus, non cursus purus ligula ac est. Integer nec sapien diam. Duis condimentum efficitur diam, a aliquam nunc porta at. Morbi sed lectus non nisl accumsan iaculis. Sed bibendum, arcu et tincidunt fermentum, ex nisl fermentum ante, id ullamcorper est quam vel lectus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In non nibh ut nisl tristique volutpat. Suspendisse potenti. Integer sit amet nulla vehicula, pulvinar ante ac, luctus ligula. Nullam ac sapien ac lacus lacinia imperdiet. Sed nec malesuada odio, non varius justo. Nullam faucibus leo a magna pulvinar pretium. Ut suscipit turpis et felis dictum, vel tempor sem tincidunt.</p><p>Fusce in ante ac libero lacinia sodales. Duis vitae velit a augue hendrerit sollicitudin. Etiam suscipit orci sem, a tincidunt lorem tincidunt id. Morbi tristique libero at ante scelerisque, vitae efficitur lacus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet orci turpis. Etiam posuere diam quis velit vulputate, nec commodo purus porta.</p>"
+  }
+]

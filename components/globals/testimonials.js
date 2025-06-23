@@ -51,7 +51,7 @@ const Testimonials = () => {
             <SwiperSlide key={index}>
               <div
                 className="bg-white p-8 rounded-md flex flex-col gap-4 h-full fade-in"
-                data-delay={(index * 0.3).toFixed(1)} // Staggered delay
+                data-delay={(index * 0.2).toFixed(1)} // Staggered delay
               >
                 <div className="flex gap-1">
                   {[...Array(5)].map((_, i) => (

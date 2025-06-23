@@ -25,7 +25,7 @@ const Usps = () => {
   return (
     <section className="py-4 bg-primary">
       <div className="container">
-        <div className="mx-auto max-w-[900px]">
+        <div className="mx-auto max-w-[950px]">
         <Swiper
           modules={[Autoplay]}
           spaceBetween={24}

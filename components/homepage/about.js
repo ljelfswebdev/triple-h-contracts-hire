@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const AboutBlock = () => {
+const AboutBlock = ({ className = '' }) => {
     return ( 
-        <section className="pb-20 bg-black">
+        <section className={`pb-20 bg-black ${className}`}>
             <div className="container">
                 <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
-                    <div className="flex flex-col gap-4 fade-up ">
+                    <div className="flex flex-col gap-4 fade-in ">
                         <div className="h2 text-white">About Us</div>
                             <div className="text-white space-y-6">
                             <p>

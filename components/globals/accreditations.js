@@ -14,7 +14,7 @@ const Accreditations = () => {
             <div
               key={index}
               className="bg-white rounded-md p-0 flex items-center justify-center h-40 fade-in"
-              data-delay={(index * 0.3).toFixed(1)} // Staggered delay
+              data-delay={(index * 0.2).toFixed(1)} // Staggered delay
             >
               <div className="relative w-3/4 h-3/4">
                 <Image

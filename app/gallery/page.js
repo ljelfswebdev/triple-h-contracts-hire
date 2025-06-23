@@ -1,21 +1,23 @@
 import Banner from "@/components/globals/banner";
-import ServicesMainBlock from "@/components/services/main-block";
 import dynamic from 'next/dynamic';
+
 const Usps = dynamic(() => import('@/components/globals/usps'));
+const GalleryBlock = dynamic(() => import('@/components/gallery/gallery-block'));
 const Accreditations = dynamic(() => import('@/components/globals/accreditations'));
 
-const ServicesPage = () => {
+const Gallery = () => {
     return ( 
         <>
             <Banner 
-                title="Our Services" 
+                title="Gallery" 
                 background="/banners/about.png" 
             />
-            <Usps />
-            <ServicesMainBlock/>
+            <Usps/>
+            <GalleryBlock />
+
             <Accreditations />
         </>
      );
 }
  
-export default ServicesPage;
+export default Gallery;
