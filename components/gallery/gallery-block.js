@@ -34,8 +34,9 @@ const GalleryBlock = () => {
                 <Image
                   src={`/gallery/${img}`}
                   alt={`Gallery image ${index + 1}`}
-                  fill
-                  className="object-cover transition-all duration-300 group-hover:scale-105"
+                  height={250}
+                  width={500}
+                  className="object-cover h-full w-full transition-all duration-300 group-hover:scale-105"
                 />
               </div>
             ))}
