@@ -50,8 +50,9 @@ const Services = () => {
                   <Image
                     src={`/services/${service.image}`}
                     alt={service.title}
-                    fill
-                    className="object-cover transition-all group-hover:scale-110"
+                    height={300}
+                    width={500}
+                    className="object-cover transition-all h-full w-full group-hover:scale-110"
                   />
                 </div>
                 <div className="text-white h4 font-semibold">{service.title}</div>

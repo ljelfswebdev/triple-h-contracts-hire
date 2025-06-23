@@ -20,8 +20,9 @@ const Accreditations = () => {
                 <Image
                   src={`/accreditations/${img}`}
                   alt={`Accreditation ${index + 1}`}
-                  fill
-                  className="object-contain"
+                  height={160}
+                  width={320}
+                  className="object-contain h-full w-full"
                 />
               </div>
             </div>

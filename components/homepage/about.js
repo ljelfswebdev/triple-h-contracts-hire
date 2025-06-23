@@ -35,8 +35,9 @@ const AboutBlock = ({ className = '' }) => {
                     <Image
                         src="/about-home.png"
                         alt="About Triple H Contracts & Hire"
-                        fill
-                        className="object-cover transition-all duration-500 group-hover:scale-110"
+                        height={600}
+                        width={800}
+                        className="object-cover h-full w-full transition-all duration-500 group-hover:scale-110"
                     />
                     </div>
                 </div>
