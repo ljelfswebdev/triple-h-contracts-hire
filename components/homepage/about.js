@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const AboutBlock = ({ className = '' }) => {
+const AboutBlock = ({ className = '', showButton = true }) => {
     return ( 
         <section className={`pb-20 bg-black ${className}`}>
             <div className="container">
@@ -29,7 +29,11 @@ const AboutBlock = ({ className = '' }) => {
                                 Whether you're preparing a site, enhancing a property, or maintaining farmland, Triple H Contracts & Hire is the name you can count on.
                             </p>
                             </div>
-                        <Link href="/about" className="button button--primary">About Us</Link>
+                            {showButton && (
+                            <Link href="/about" className="button button--primary">
+                                About Us
+                            </Link>
+                            )}
                     </div>
                     <div className="fade-in w-full h-[400px] overflow-hidden rounded-md group relative ">
                     <Image

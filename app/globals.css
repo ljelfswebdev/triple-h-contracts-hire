@@ -48,10 +48,10 @@ body {
   margin:auto;
 }
 
-.fade-up,
+/* .fade-up,
 .fade-left,
 .fade-right,
 .fade-in {
   will-change: opacity, transform;
   opacity:0;
-}
+} */

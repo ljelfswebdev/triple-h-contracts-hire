@@ -19,7 +19,7 @@ const AboutPage = () => {
 
 
             <Usps />
-            <AboutBlock className="pt-20" />
+            <AboutBlock className="pt-20" showButton={false} />
             <Team />
 
 

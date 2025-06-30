@@ -52,20 +52,26 @@ export default function AnimateRoot() {
     };
 
     const scanAndAnimate = () => {
+      const isMobile = window.innerWidth < 640;
+    
       Object.keys(animationMap).forEach((key) => {
         const elements = document.querySelectorAll(`.${key}`);
         elements.forEach((el) => {
           if (el.dataset.motionApplied) return;
+    
+          const override = el.classList.contains('motion-override');
+    
+          // ⛔ Skip both style and animation setup on mobile unless overridden
+          if (isMobile && !override) return;
+    
           el.dataset.motionApplied = 'true';
           animateOnView(el, key);
         });
       });
     };
 
-    // Initial scan
     scanAndAnimate();
 
-    // Watch DOM for new elements
     const mutationObserver = new MutationObserver(() => {
       scanAndAnimate();
     });

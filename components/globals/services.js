@@ -44,7 +44,7 @@ const Services = () => {
             <SwiperSlide key={index}>
               <div
                 className="flex flex-col gap-3 group fade-in"
-                data-delay={(index * 0.2).toFixed(1)} // Increment delay by 0.3s
+                data-delay={(index * 0.05).toFixed(1)} // Increment delay by 0.3s
               >
                 <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
                   <Image

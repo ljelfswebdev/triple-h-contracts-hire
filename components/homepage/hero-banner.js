@@ -39,9 +39,9 @@ const HeroBanner = () => {
     <div className="container">
       <div className="flex flex-col gap-2 items-center justify-center text-white text-center">
         <h1>Triple H Contracts & Hire</h1>
-        <span className="h3 fade-in" data-delay="0">Reliable</span>
-        <span className="h3 fade-in" data-delay="0.5">Resourceful</span>
-        <span className="h3 fade-in" data-delay="1">Ready For Anything</span>
+        <span className="h3 fade-in motion-override" data-delay="0">Reliable</span>
+        <span className="h3 fade-in motion-override" data-delay="0.5">Resourceful</span>
+        <span className="h3 fade-in motion-override" data-delay="1">Ready For Anything</span>
       </div>
     </div>
   </div>

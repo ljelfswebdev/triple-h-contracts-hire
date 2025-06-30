@@ -24,12 +24,16 @@ const GalleryBlock = () => {
       <section className="bg-black py-20">
         <div className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {imagesToShow.map((img, index) => (
+          {imagesToShow.map((img, index) => {
+            const originalIndex = images.indexOf(img, index); // Ensures consistent delay for original image order
+            const delay = originalIndex < 12 ? (originalIndex * 0.05).toFixed(1) : null;
+
+            return (
               <div
                 key={index}
                 className="relative w-full h-[250px] rounded-md overflow-hidden cursor-pointer group fade-in"
                 onClick={() => setSelectedImage(img)}
-                data-delay={(index * 0.1).toFixed(1)}
+                {...(delay !== null && { 'data-delay': delay })}
               >
                 <Image
                   src={`/gallery/${img}`}
@@ -39,7 +43,8 @@ const GalleryBlock = () => {
                   className="object-cover h-full w-full transition-all duration-300 group-hover:scale-105"
                 />
               </div>
-            ))}
+            );
+          })}
           </div>
 
           {images.length > 12 && (
